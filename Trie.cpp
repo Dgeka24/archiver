@@ -5,9 +5,10 @@
 #include "Trie.h"
 
 
-Trie::Trie(std::ifstream &input) : fin_(input) {
+Trie::Trie(std::ifstream &input, std::string file_name) : fin_(input) {
     BitReader reader(fin_);
     std::unordered_map<uint16_t, size_t> freq;
+    file_name_ = file_name;
     try {
         while(true) {
             uint16_t symb = reader.ReadBits(8);
@@ -19,6 +20,13 @@ Trie::Trie(std::ifstream &input) : fin_(input) {
         }
     } catch (std::out_of_range) {
 
+    }
+    for (char ch : file_name_) {
+        uint16_t symb = static_cast<uint16_t>(ch);
+        if (!freq.contains(symb)) {
+            freq[symb] = 0;
+        }
+        freq[symb]++;
     }
     Heap queue = Heap();
     for (auto p : freq) {
@@ -56,7 +64,7 @@ std::unordered_map<uint16_t, std::vector<bool>> Trie::canonize_codes(std::vector
     return res;
 }
 
-void Trie::increment_vector(std::vector<bool> &bits, size_t idx) {
+/* void Trie::increment_vector(std::vector<bool> &bits, size_t idx) {
     if (bits.empty() || idx >= bits.size()) {
         return;
     }
@@ -68,7 +76,7 @@ void Trie::increment_vector(std::vector<bool> &bits, size_t idx) {
     if (idx != 0) {
         increment_vector(bits, idx-1);
     }
-}
+} */
 
 
 void Trie::build_codes(Node* v, std::vector<bool> &current, std::vector<std::pair<size_t, uint16_t>>& res) {

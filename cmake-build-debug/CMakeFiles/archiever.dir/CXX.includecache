@@ -22,6 +22,8 @@ iostream
 fstream
 -
 
+C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h
+
 C:/Users/Lenovo/CLionProjects/archiever/Compress.h
 string
 -
@@ -35,6 +37,28 @@ BitReader.h
 C:/Users/Lenovo/CLionProjects/archiever/BitReader.h
 algorithm
 -
+CONSTANTS.h
+C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h
+
+C:/Users/Lenovo/CLionProjects/archiever/Decompress.h
+string
+-
+fstream
+-
+unordered_map
+-
+vector
+-
+BitReader.h
+C:/Users/Lenovo/CLionProjects/archiever/BitReader.h
+Trie.h
+C:/Users/Lenovo/CLionProjects/archiever/Trie.h
+iostream
+-
+CONSTANTS.h
+C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h
+BitWriter.h
+C:/Users/Lenovo/CLionProjects/archiever/BitWriter.h
 
 C:/Users/Lenovo/CLionProjects/archiever/Heap.h
 cstddef
@@ -85,4 +109,6 @@ BitWriter.h
 C:/Users/Lenovo/CLionProjects/archiever/BitWriter.h
 Compress.h
 C:/Users/Lenovo/CLionProjects/archiever/Compress.h
+Decompress.h
+C:/Users/Lenovo/CLionProjects/archiever/Decompress.h
 

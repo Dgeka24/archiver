@@ -15,6 +15,7 @@ public:
     BitReader(std::ifstream& input);
     uint16_t ReadBits(size_t bits);
     std::vector<bool> ReadBitsVector(size_t bits);
+    bool ReadBit();
 private:
     bool BufferUpdate();
     uint32_t buffer_;

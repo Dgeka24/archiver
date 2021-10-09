@@ -10,8 +10,18 @@ CMakeFiles/archiever.dir/BitWriter.cpp.obj: \
 CMakeFiles/archiever.dir/Compress.cpp.obj: \
  ../BitReader.h \
  ../BitWriter.h \
+ ../CONSTANTS.h \
  ../Compress.cpp \
  ../Compress.h \
+ ../Heap.h \
+ ../Node.cpp \
+ ../Trie.h
+CMakeFiles/archiever.dir/Decompress.cpp.obj: \
+ ../BitReader.h \
+ ../BitWriter.h \
+ ../CONSTANTS.h \
+ ../Decompress.cpp \
+ ../Decompress.h \
  ../Heap.h \
  ../Node.cpp \
  ../Trie.h
@@ -32,7 +42,9 @@ CMakeFiles/archiever.dir/Trie.cpp.obj: \
 CMakeFiles/archiever.dir/main.cpp.obj: \
  ../BitReader.h \
  ../BitWriter.h \
+ ../CONSTANTS.h \
  ../Compress.h \
+ ../Decompress.h \
  ../Heap.h \
  ../Node.cpp \
  ../Trie.h \

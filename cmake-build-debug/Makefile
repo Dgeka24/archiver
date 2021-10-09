@@ -200,6 +200,30 @@ Compress.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Compress.cpp.s
 .PHONY : Compress.cpp.s
 
+Decompress.obj: Decompress.cpp.obj
+.PHONY : Decompress.obj
+
+# target to build an object file
+Decompress.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Decompress.cpp.obj
+.PHONY : Decompress.cpp.obj
+
+Decompress.i: Decompress.cpp.i
+.PHONY : Decompress.i
+
+# target to preprocess a source file
+Decompress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Decompress.cpp.i
+.PHONY : Decompress.cpp.i
+
+Decompress.s: Decompress.cpp.s
+.PHONY : Decompress.s
+
+# target to generate assembly for a file
+Decompress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Decompress.cpp.s
+.PHONY : Decompress.cpp.s
+
 Heap.obj: Heap.cpp.obj
 .PHONY : Heap.obj
 
@@ -314,6 +338,9 @@ help:
 	@echo ... Compress.obj
 	@echo ... Compress.i
 	@echo ... Compress.s
+	@echo ... Decompress.obj
+	@echo ... Decompress.i
+	@echo ... Decompress.s
 	@echo ... Heap.obj
 	@echo ... Heap.i
 	@echo ... Heap.s

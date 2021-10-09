@@ -32,16 +32,16 @@ void BitWriter::write_from_int(uint16_t bits, size_t amount) {
 
 void BitWriter::write_to_file() {
     if (buffer_.size() >= 8) {
-        unsigned char ch = 0;
+        uint8_t ch = 0;
         for (size_t idx = 0; idx < 8; idx++) {
             if (buffer_[idx]) {
                 ch |= (1<<(7-idx));
             }
         }
-        buffer_.erase(buffer_.begin(), buffer_.end()+8);
+        buffer_.erase(buffer_.begin(), buffer_.begin()+8);
         fout_.put(static_cast<char>(ch));
     } else {
-        unsigned char ch = 0;
+        uint8_t ch = 0;
         for (size_t idx = 0; idx < buffer_.size(); idx++) {
             if (buffer_[idx]) {
                 ch |= (1<<(7-idx));
@@ -50,6 +50,7 @@ void BitWriter::write_to_file() {
         buffer_.clear();
         fout_.put(static_cast<char>(ch));
     }
+    fout_.flush();
 }
 
 BitWriter::~BitWriter() {

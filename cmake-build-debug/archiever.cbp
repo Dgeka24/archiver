@@ -94,10 +94,19 @@
 		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/BitWriter.h">
 			<Option target="archiever"/>
 		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h">
+			<Option target="archiever"/>
+		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Compress.cpp">
 			<Option target="archiever"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Compress.h">
+			<Option target="archiever"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Decompress.cpp">
+			<Option target="archiever"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Decompress.h">
 			<Option target="archiever"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Heap.cpp">

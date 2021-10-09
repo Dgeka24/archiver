@@ -4,53 +4,17 @@
 #include "Trie.h"
 #include "BitWriter.h"
 #include "Compress.h"
+#include "Decompress.h"
 
-int main() {
-    // ошибка с чтением написанием битов в файл
-    std::ifstream fin("input.txt", std::fstream::binary);
-    BitReader reader = BitReader(fin);
-    try {
-        while (true) {
-            uint16_t x = reader.ReadBits(9);
-            std::cout << x << std::endl;
-        }
-    } catch (...) {
-        std::cout << "EOF";
+int main(int argc, char* argv[]) {
+
+    /*std::string picture_path = "C:\\Users\\Lenovo\\Downloads\\1556945414_2.jpg";
+    std::ifstream fin(picture_path, std::fstream::binary);
+    if (!fin.is_open()){
+        return 5;
     }
-
-    return 0;
-
-    //std::ifstream fin("input.txt", std::fstream::binary);
     std::ofstream fout("output.txt", std::fstream::binary);
-    if (!fout.is_open()) {
-        std::cerr << "file didn't open";
-        throw;
-    }
+    Compress cmp = Compress(picture_path, fin, fout, true);*/
+    Decompress decomp = Decompress("output.txt");
 
-    if (!fin.is_open())
-    {
-        std::cerr << "file didn't open\n";
-        throw;
-    }
-
-    Compress cmp = Compress("input.txt", fin, fout);
-
-
-    return 0;
-    char x;
-    Trie t(fin);
-    std::vector<std::pair<size_t, uint16_t>> res = t.build_codes();
-    for (auto x : res) {
-        std::cout << x.first << " : " << x.second;
-        std::cout << "\n";
-    }
-    std::unordered_map<uint16_t, std::vector<bool>> canon = t.canonize_codes(res);
-    for (auto x : canon) {
-        std::cout << x.first << " : ";
-        for (auto y : x.second) {
-            std::cout << y << " ";
-        }
-        std::cout << "\n";
-    }
-    return 0;
 }

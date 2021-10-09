@@ -3,4 +3,4 @@ project(archiever)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(archiever main.cpp BitReader.cpp BitReader.h Heap.cpp Heap.h Trie.cpp Trie.h Node.cpp BitWriter.cpp BitWriter.h Compress.cpp Compress.h)
+add_executable(archiever main.cpp BitReader.cpp BitReader.h Heap.cpp Heap.h Trie.cpp Trie.h Node.cpp BitWriter.cpp BitWriter.h Compress.cpp Compress.h CONSTANTS.h Decompress.cpp Decompress.h)

@@ -13,14 +13,14 @@ bool BitReader::BufferUpdate() {
     if (fin_.eof()) {
         return false;
     }
-    while (buffer_size_ + 8 < 32) {
+    while (buffer_size_ + 8 < 30) {
         char x;
         fin_.get(x);
         if (fin_.eof()) {
             return false;
         }
         buffer_ >>= (32 - buffer_size_ - 8);
-        buffer_ += x;
+        buffer_ += static_cast<uint8_t>(x);
         buffer_ <<= (32 - buffer_size_ - 8);
         buffer_size_ += 8;
     }
@@ -40,6 +40,21 @@ uint16_t BitReader::ReadBits(size_t bits) {
     buffer_size_ -= bits;
     buffer_ <<= bits;
     return (res>>(16-bits));
+}
+
+bool BitReader::ReadBit() {
+    if (buffer_size_ == 0) {
+        if(!BufferUpdate()) {
+            throw std::out_of_range("Out of Range ReadBits");
+        }
+        if (buffer_size_ == 0) {
+            throw std::out_of_range("Out of Range ReadBits");
+        }
+    }
+    bool res = buffer_ & (1 << 31);
+    buffer_ <<= 1;
+    buffer_size_--;
+    return res;
 }
 
 std::vector<bool> BitReader::ReadBitsVector(size_t bits) {

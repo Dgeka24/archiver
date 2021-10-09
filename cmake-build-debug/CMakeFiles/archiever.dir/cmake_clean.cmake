@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/archiever.dir/BitReader.cpp.obj"
   "CMakeFiles/archiever.dir/BitWriter.cpp.obj"
   "CMakeFiles/archiever.dir/Compress.cpp.obj"
+  "CMakeFiles/archiever.dir/Decompress.cpp.obj"
   "CMakeFiles/archiever.dir/Heap.cpp.obj"
   "CMakeFiles/archiever.dir/Node.cpp.obj"
   "CMakeFiles/archiever.dir/Trie.cpp.obj"
