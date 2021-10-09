@@ -1,10 +1,10 @@
 #include <iostream>
 #include <fstream>
-#include "BitReader.h"
-#include "Trie.h"
-#include "BitWriter.h"
-#include "Compress.h"
-#include "Decompress.h"
+#include "library/BitReader.h"
+#include "library/Trie.h"
+#include "library/BitWriter.h"
+#include "library/Compress.h"
+#include "library/Decompress.h"
 #include <algorithm>
 #include <filesystem>
 #include <cstring>

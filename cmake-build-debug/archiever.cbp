@@ -82,46 +82,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/BitReader.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.cpp">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/BitReader.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.h">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/BitWriter.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.cpp">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/BitWriter.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Compress.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/Compress.cpp">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Compress.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/Compress.h">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Decompress.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.cpp">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Decompress.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.h">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Heap.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/Heap.cpp">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Heap.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/Heap.h">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Node.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Trie.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/Trie.cpp">
 			<Option target="archiever"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/Trie.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h">
 			<Option target="archiever"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/main.cpp">

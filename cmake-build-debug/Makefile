@@ -128,173 +128,173 @@ archiever/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/build
 .PHONY : archiever/fast
 
-BitReader.obj: BitReader.cpp.obj
-.PHONY : BitReader.obj
+library/BitReader.obj: library/BitReader.cpp.obj
+.PHONY : library/BitReader.obj
 
 # target to build an object file
-BitReader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/BitReader.cpp.obj
-.PHONY : BitReader.cpp.obj
+library/BitReader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/BitReader.cpp.obj
+.PHONY : library/BitReader.cpp.obj
 
-BitReader.i: BitReader.cpp.i
-.PHONY : BitReader.i
+library/BitReader.i: library/BitReader.cpp.i
+.PHONY : library/BitReader.i
 
 # target to preprocess a source file
-BitReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/BitReader.cpp.i
-.PHONY : BitReader.cpp.i
+library/BitReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/BitReader.cpp.i
+.PHONY : library/BitReader.cpp.i
 
-BitReader.s: BitReader.cpp.s
-.PHONY : BitReader.s
+library/BitReader.s: library/BitReader.cpp.s
+.PHONY : library/BitReader.s
 
 # target to generate assembly for a file
-BitReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/BitReader.cpp.s
-.PHONY : BitReader.cpp.s
+library/BitReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/BitReader.cpp.s
+.PHONY : library/BitReader.cpp.s
 
-BitWriter.obj: BitWriter.cpp.obj
-.PHONY : BitWriter.obj
+library/BitWriter.obj: library/BitWriter.cpp.obj
+.PHONY : library/BitWriter.obj
 
 # target to build an object file
-BitWriter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/BitWriter.cpp.obj
-.PHONY : BitWriter.cpp.obj
+library/BitWriter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/BitWriter.cpp.obj
+.PHONY : library/BitWriter.cpp.obj
 
-BitWriter.i: BitWriter.cpp.i
-.PHONY : BitWriter.i
+library/BitWriter.i: library/BitWriter.cpp.i
+.PHONY : library/BitWriter.i
 
 # target to preprocess a source file
-BitWriter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/BitWriter.cpp.i
-.PHONY : BitWriter.cpp.i
+library/BitWriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/BitWriter.cpp.i
+.PHONY : library/BitWriter.cpp.i
 
-BitWriter.s: BitWriter.cpp.s
-.PHONY : BitWriter.s
+library/BitWriter.s: library/BitWriter.cpp.s
+.PHONY : library/BitWriter.s
 
 # target to generate assembly for a file
-BitWriter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/BitWriter.cpp.s
-.PHONY : BitWriter.cpp.s
+library/BitWriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/BitWriter.cpp.s
+.PHONY : library/BitWriter.cpp.s
 
-Compress.obj: Compress.cpp.obj
-.PHONY : Compress.obj
+library/Compress.obj: library/Compress.cpp.obj
+.PHONY : library/Compress.obj
 
 # target to build an object file
-Compress.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Compress.cpp.obj
-.PHONY : Compress.cpp.obj
+library/Compress.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Compress.cpp.obj
+.PHONY : library/Compress.cpp.obj
 
-Compress.i: Compress.cpp.i
-.PHONY : Compress.i
+library/Compress.i: library/Compress.cpp.i
+.PHONY : library/Compress.i
 
 # target to preprocess a source file
-Compress.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Compress.cpp.i
-.PHONY : Compress.cpp.i
+library/Compress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Compress.cpp.i
+.PHONY : library/Compress.cpp.i
 
-Compress.s: Compress.cpp.s
-.PHONY : Compress.s
+library/Compress.s: library/Compress.cpp.s
+.PHONY : library/Compress.s
 
 # target to generate assembly for a file
-Compress.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Compress.cpp.s
-.PHONY : Compress.cpp.s
+library/Compress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Compress.cpp.s
+.PHONY : library/Compress.cpp.s
 
-Decompress.obj: Decompress.cpp.obj
-.PHONY : Decompress.obj
+library/Decompress.obj: library/Decompress.cpp.obj
+.PHONY : library/Decompress.obj
 
 # target to build an object file
-Decompress.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Decompress.cpp.obj
-.PHONY : Decompress.cpp.obj
+library/Decompress.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Decompress.cpp.obj
+.PHONY : library/Decompress.cpp.obj
 
-Decompress.i: Decompress.cpp.i
-.PHONY : Decompress.i
+library/Decompress.i: library/Decompress.cpp.i
+.PHONY : library/Decompress.i
 
 # target to preprocess a source file
-Decompress.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Decompress.cpp.i
-.PHONY : Decompress.cpp.i
+library/Decompress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Decompress.cpp.i
+.PHONY : library/Decompress.cpp.i
 
-Decompress.s: Decompress.cpp.s
-.PHONY : Decompress.s
+library/Decompress.s: library/Decompress.cpp.s
+.PHONY : library/Decompress.s
 
 # target to generate assembly for a file
-Decompress.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Decompress.cpp.s
-.PHONY : Decompress.cpp.s
+library/Decompress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Decompress.cpp.s
+.PHONY : library/Decompress.cpp.s
 
-Heap.obj: Heap.cpp.obj
-.PHONY : Heap.obj
+library/Heap.obj: library/Heap.cpp.obj
+.PHONY : library/Heap.obj
 
 # target to build an object file
-Heap.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Heap.cpp.obj
-.PHONY : Heap.cpp.obj
+library/Heap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Heap.cpp.obj
+.PHONY : library/Heap.cpp.obj
 
-Heap.i: Heap.cpp.i
-.PHONY : Heap.i
+library/Heap.i: library/Heap.cpp.i
+.PHONY : library/Heap.i
 
 # target to preprocess a source file
-Heap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Heap.cpp.i
-.PHONY : Heap.cpp.i
+library/Heap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Heap.cpp.i
+.PHONY : library/Heap.cpp.i
 
-Heap.s: Heap.cpp.s
-.PHONY : Heap.s
+library/Heap.s: library/Heap.cpp.s
+.PHONY : library/Heap.s
 
 # target to generate assembly for a file
-Heap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Heap.cpp.s
-.PHONY : Heap.cpp.s
+library/Heap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Heap.cpp.s
+.PHONY : library/Heap.cpp.s
 
-Node.obj: Node.cpp.obj
-.PHONY : Node.obj
+library/Node.obj: library/Node.cpp.obj
+.PHONY : library/Node.obj
 
 # target to build an object file
-Node.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Node.cpp.obj
-.PHONY : Node.cpp.obj
+library/Node.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Node.cpp.obj
+.PHONY : library/Node.cpp.obj
 
-Node.i: Node.cpp.i
-.PHONY : Node.i
+library/Node.i: library/Node.cpp.i
+.PHONY : library/Node.i
 
 # target to preprocess a source file
-Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Node.cpp.i
-.PHONY : Node.cpp.i
+library/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Node.cpp.i
+.PHONY : library/Node.cpp.i
 
-Node.s: Node.cpp.s
-.PHONY : Node.s
+library/Node.s: library/Node.cpp.s
+.PHONY : library/Node.s
 
 # target to generate assembly for a file
-Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Node.cpp.s
-.PHONY : Node.cpp.s
+library/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Node.cpp.s
+.PHONY : library/Node.cpp.s
 
-Trie.obj: Trie.cpp.obj
-.PHONY : Trie.obj
+library/Trie.obj: library/Trie.cpp.obj
+.PHONY : library/Trie.obj
 
 # target to build an object file
-Trie.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Trie.cpp.obj
-.PHONY : Trie.cpp.obj
+library/Trie.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Trie.cpp.obj
+.PHONY : library/Trie.cpp.obj
 
-Trie.i: Trie.cpp.i
-.PHONY : Trie.i
+library/Trie.i: library/Trie.cpp.i
+.PHONY : library/Trie.i
 
 # target to preprocess a source file
-Trie.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Trie.cpp.i
-.PHONY : Trie.cpp.i
+library/Trie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Trie.cpp.i
+.PHONY : library/Trie.cpp.i
 
-Trie.s: Trie.cpp.s
-.PHONY : Trie.s
+library/Trie.s: library/Trie.cpp.s
+.PHONY : library/Trie.s
 
 # target to generate assembly for a file
-Trie.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/Trie.cpp.s
-.PHONY : Trie.cpp.s
+library/Trie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/library/Trie.cpp.s
+.PHONY : library/Trie.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -329,27 +329,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... archiever
-	@echo ... BitReader.obj
-	@echo ... BitReader.i
-	@echo ... BitReader.s
-	@echo ... BitWriter.obj
-	@echo ... BitWriter.i
-	@echo ... BitWriter.s
-	@echo ... Compress.obj
-	@echo ... Compress.i
-	@echo ... Compress.s
-	@echo ... Decompress.obj
-	@echo ... Decompress.i
-	@echo ... Decompress.s
-	@echo ... Heap.obj
-	@echo ... Heap.i
-	@echo ... Heap.s
-	@echo ... Node.obj
-	@echo ... Node.i
-	@echo ... Node.s
-	@echo ... Trie.obj
-	@echo ... Trie.i
-	@echo ... Trie.s
+	@echo ... library/BitReader.obj
+	@echo ... library/BitReader.i
+	@echo ... library/BitReader.s
+	@echo ... library/BitWriter.obj
+	@echo ... library/BitWriter.i
+	@echo ... library/BitWriter.s
+	@echo ... library/Compress.obj
+	@echo ... library/Compress.i
+	@echo ... library/Compress.s
+	@echo ... library/Decompress.obj
+	@echo ... library/Decompress.i
+	@echo ... library/Decompress.s
+	@echo ... library/Heap.obj
+	@echo ... library/Heap.i
+	@echo ... library/Heap.s
+	@echo ... library/Node.obj
+	@echo ... library/Node.i
+	@echo ... library/Node.s
+	@echo ... library/Trie.obj
+	@echo ... library/Trie.i
+	@echo ... library/Trie.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

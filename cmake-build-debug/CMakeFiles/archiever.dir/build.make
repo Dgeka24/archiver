@@ -78,119 +78,119 @@ CMakeFiles/archiever.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/main.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\main.cpp -o CMakeFiles\archiever.dir\main.cpp.s
 
-CMakeFiles/archiever.dir/BitReader.cpp.obj: CMakeFiles/archiever.dir/flags.make
-CMakeFiles/archiever.dir/BitReader.cpp.obj: ../BitReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/archiever.dir/BitReader.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\BitReader.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\BitReader.cpp
+CMakeFiles/archiever.dir/library/BitReader.cpp.obj: CMakeFiles/archiever.dir/flags.make
+CMakeFiles/archiever.dir/library/BitReader.cpp.obj: ../library/BitReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/archiever.dir/library/BitReader.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\library\BitReader.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\library\BitReader.cpp
 
-CMakeFiles/archiever.dir/BitReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/BitReader.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\BitReader.cpp > CMakeFiles\archiever.dir\BitReader.cpp.i
+CMakeFiles/archiever.dir/library/BitReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/library/BitReader.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\library\BitReader.cpp > CMakeFiles\archiever.dir\library\BitReader.cpp.i
 
-CMakeFiles/archiever.dir/BitReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/BitReader.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\BitReader.cpp -o CMakeFiles\archiever.dir\BitReader.cpp.s
+CMakeFiles/archiever.dir/library/BitReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/library/BitReader.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\library\BitReader.cpp -o CMakeFiles\archiever.dir\library\BitReader.cpp.s
 
-CMakeFiles/archiever.dir/Heap.cpp.obj: CMakeFiles/archiever.dir/flags.make
-CMakeFiles/archiever.dir/Heap.cpp.obj: ../Heap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/archiever.dir/Heap.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\Heap.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\Heap.cpp
+CMakeFiles/archiever.dir/library/Heap.cpp.obj: CMakeFiles/archiever.dir/flags.make
+CMakeFiles/archiever.dir/library/Heap.cpp.obj: ../library/Heap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/archiever.dir/library/Heap.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\library\Heap.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\library\Heap.cpp
 
-CMakeFiles/archiever.dir/Heap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/Heap.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\Heap.cpp > CMakeFiles\archiever.dir\Heap.cpp.i
+CMakeFiles/archiever.dir/library/Heap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/library/Heap.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\library\Heap.cpp > CMakeFiles\archiever.dir\library\Heap.cpp.i
 
-CMakeFiles/archiever.dir/Heap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/Heap.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\Heap.cpp -o CMakeFiles\archiever.dir\Heap.cpp.s
+CMakeFiles/archiever.dir/library/Heap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/library/Heap.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\library\Heap.cpp -o CMakeFiles\archiever.dir\library\Heap.cpp.s
 
-CMakeFiles/archiever.dir/Trie.cpp.obj: CMakeFiles/archiever.dir/flags.make
-CMakeFiles/archiever.dir/Trie.cpp.obj: ../Trie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/archiever.dir/Trie.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\Trie.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\Trie.cpp
+CMakeFiles/archiever.dir/library/Trie.cpp.obj: CMakeFiles/archiever.dir/flags.make
+CMakeFiles/archiever.dir/library/Trie.cpp.obj: ../library/Trie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/archiever.dir/library/Trie.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\library\Trie.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\library\Trie.cpp
 
-CMakeFiles/archiever.dir/Trie.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/Trie.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\Trie.cpp > CMakeFiles\archiever.dir\Trie.cpp.i
+CMakeFiles/archiever.dir/library/Trie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/library/Trie.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\library\Trie.cpp > CMakeFiles\archiever.dir\library\Trie.cpp.i
 
-CMakeFiles/archiever.dir/Trie.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/Trie.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\Trie.cpp -o CMakeFiles\archiever.dir\Trie.cpp.s
+CMakeFiles/archiever.dir/library/Trie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/library/Trie.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\library\Trie.cpp -o CMakeFiles\archiever.dir\library\Trie.cpp.s
 
-CMakeFiles/archiever.dir/Node.cpp.obj: CMakeFiles/archiever.dir/flags.make
-CMakeFiles/archiever.dir/Node.cpp.obj: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/archiever.dir/Node.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\Node.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\Node.cpp
+CMakeFiles/archiever.dir/library/Node.cpp.obj: CMakeFiles/archiever.dir/flags.make
+CMakeFiles/archiever.dir/library/Node.cpp.obj: ../library/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/archiever.dir/library/Node.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\library\Node.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\library\Node.cpp
 
-CMakeFiles/archiever.dir/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/Node.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\Node.cpp > CMakeFiles\archiever.dir\Node.cpp.i
+CMakeFiles/archiever.dir/library/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/library/Node.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\library\Node.cpp > CMakeFiles\archiever.dir\library\Node.cpp.i
 
-CMakeFiles/archiever.dir/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/Node.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\Node.cpp -o CMakeFiles\archiever.dir\Node.cpp.s
+CMakeFiles/archiever.dir/library/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/library/Node.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\library\Node.cpp -o CMakeFiles\archiever.dir\library\Node.cpp.s
 
-CMakeFiles/archiever.dir/BitWriter.cpp.obj: CMakeFiles/archiever.dir/flags.make
-CMakeFiles/archiever.dir/BitWriter.cpp.obj: ../BitWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/archiever.dir/BitWriter.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\BitWriter.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\BitWriter.cpp
+CMakeFiles/archiever.dir/library/BitWriter.cpp.obj: CMakeFiles/archiever.dir/flags.make
+CMakeFiles/archiever.dir/library/BitWriter.cpp.obj: ../library/BitWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/archiever.dir/library/BitWriter.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\library\BitWriter.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\library\BitWriter.cpp
 
-CMakeFiles/archiever.dir/BitWriter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/BitWriter.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\BitWriter.cpp > CMakeFiles\archiever.dir\BitWriter.cpp.i
+CMakeFiles/archiever.dir/library/BitWriter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/library/BitWriter.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\library\BitWriter.cpp > CMakeFiles\archiever.dir\library\BitWriter.cpp.i
 
-CMakeFiles/archiever.dir/BitWriter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/BitWriter.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\BitWriter.cpp -o CMakeFiles\archiever.dir\BitWriter.cpp.s
+CMakeFiles/archiever.dir/library/BitWriter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/library/BitWriter.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\library\BitWriter.cpp -o CMakeFiles\archiever.dir\library\BitWriter.cpp.s
 
-CMakeFiles/archiever.dir/Compress.cpp.obj: CMakeFiles/archiever.dir/flags.make
-CMakeFiles/archiever.dir/Compress.cpp.obj: ../Compress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/archiever.dir/Compress.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\Compress.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\Compress.cpp
+CMakeFiles/archiever.dir/library/Compress.cpp.obj: CMakeFiles/archiever.dir/flags.make
+CMakeFiles/archiever.dir/library/Compress.cpp.obj: ../library/Compress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/archiever.dir/library/Compress.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\library\Compress.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\library\Compress.cpp
 
-CMakeFiles/archiever.dir/Compress.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/Compress.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\Compress.cpp > CMakeFiles\archiever.dir\Compress.cpp.i
+CMakeFiles/archiever.dir/library/Compress.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/library/Compress.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\library\Compress.cpp > CMakeFiles\archiever.dir\library\Compress.cpp.i
 
-CMakeFiles/archiever.dir/Compress.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/Compress.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\Compress.cpp -o CMakeFiles\archiever.dir\Compress.cpp.s
+CMakeFiles/archiever.dir/library/Compress.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/library/Compress.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\library\Compress.cpp -o CMakeFiles\archiever.dir\library\Compress.cpp.s
 
-CMakeFiles/archiever.dir/Decompress.cpp.obj: CMakeFiles/archiever.dir/flags.make
-CMakeFiles/archiever.dir/Decompress.cpp.obj: ../Decompress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/archiever.dir/Decompress.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\Decompress.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\Decompress.cpp
+CMakeFiles/archiever.dir/library/Decompress.cpp.obj: CMakeFiles/archiever.dir/flags.make
+CMakeFiles/archiever.dir/library/Decompress.cpp.obj: ../library/Decompress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\archiever\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/archiever.dir/library/Decompress.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\archiever.dir\library\Decompress.cpp.obj -c C:\Users\Lenovo\CLionProjects\archiever\library\Decompress.cpp
 
-CMakeFiles/archiever.dir/Decompress.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/Decompress.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\Decompress.cpp > CMakeFiles\archiever.dir\Decompress.cpp.i
+CMakeFiles/archiever.dir/library/Decompress.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archiever.dir/library/Decompress.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\archiever\library\Decompress.cpp > CMakeFiles\archiever.dir\library\Decompress.cpp.i
 
-CMakeFiles/archiever.dir/Decompress.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/Decompress.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\Decompress.cpp -o CMakeFiles\archiever.dir\Decompress.cpp.s
+CMakeFiles/archiever.dir/library/Decompress.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archiever.dir/library/Decompress.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\archiever\library\Decompress.cpp -o CMakeFiles\archiever.dir\library\Decompress.cpp.s
 
 # Object files for target archiever
 archiever_OBJECTS = \
 "CMakeFiles/archiever.dir/main.cpp.obj" \
-"CMakeFiles/archiever.dir/BitReader.cpp.obj" \
-"CMakeFiles/archiever.dir/Heap.cpp.obj" \
-"CMakeFiles/archiever.dir/Trie.cpp.obj" \
-"CMakeFiles/archiever.dir/Node.cpp.obj" \
-"CMakeFiles/archiever.dir/BitWriter.cpp.obj" \
-"CMakeFiles/archiever.dir/Compress.cpp.obj" \
-"CMakeFiles/archiever.dir/Decompress.cpp.obj"
+"CMakeFiles/archiever.dir/library/BitReader.cpp.obj" \
+"CMakeFiles/archiever.dir/library/Heap.cpp.obj" \
+"CMakeFiles/archiever.dir/library/Trie.cpp.obj" \
+"CMakeFiles/archiever.dir/library/Node.cpp.obj" \
+"CMakeFiles/archiever.dir/library/BitWriter.cpp.obj" \
+"CMakeFiles/archiever.dir/library/Compress.cpp.obj" \
+"CMakeFiles/archiever.dir/library/Decompress.cpp.obj"
 
 # External object files for target archiever
 archiever_EXTERNAL_OBJECTS =
 
 archiever.exe: CMakeFiles/archiever.dir/main.cpp.obj
-archiever.exe: CMakeFiles/archiever.dir/BitReader.cpp.obj
-archiever.exe: CMakeFiles/archiever.dir/Heap.cpp.obj
-archiever.exe: CMakeFiles/archiever.dir/Trie.cpp.obj
-archiever.exe: CMakeFiles/archiever.dir/Node.cpp.obj
-archiever.exe: CMakeFiles/archiever.dir/BitWriter.cpp.obj
-archiever.exe: CMakeFiles/archiever.dir/Compress.cpp.obj
-archiever.exe: CMakeFiles/archiever.dir/Decompress.cpp.obj
+archiever.exe: CMakeFiles/archiever.dir/library/BitReader.cpp.obj
+archiever.exe: CMakeFiles/archiever.dir/library/Heap.cpp.obj
+archiever.exe: CMakeFiles/archiever.dir/library/Trie.cpp.obj
+archiever.exe: CMakeFiles/archiever.dir/library/Node.cpp.obj
+archiever.exe: CMakeFiles/archiever.dir/library/BitWriter.cpp.obj
+archiever.exe: CMakeFiles/archiever.dir/library/Compress.cpp.obj
+archiever.exe: CMakeFiles/archiever.dir/library/Decompress.cpp.obj
 archiever.exe: CMakeFiles/archiever.dir/build.make
 archiever.exe: CMakeFiles/archiever.dir/linklibs.rsp
 archiever.exe: CMakeFiles/archiever.dir/objects1.rsp

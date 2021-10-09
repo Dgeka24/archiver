@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Lenovo/CLionProjects/archiever/BitReader.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/BitReader.cpp.obj"
-  "C:/Users/Lenovo/CLionProjects/archiever/BitWriter.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/BitWriter.cpp.obj"
-  "C:/Users/Lenovo/CLionProjects/archiever/Compress.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/Compress.cpp.obj"
-  "C:/Users/Lenovo/CLionProjects/archiever/Decompress.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/Decompress.cpp.obj"
-  "C:/Users/Lenovo/CLionProjects/archiever/Heap.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/Heap.cpp.obj"
-  "C:/Users/Lenovo/CLionProjects/archiever/Node.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/Node.cpp.obj"
-  "C:/Users/Lenovo/CLionProjects/archiever/Trie.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/Trie.cpp.obj"
+  "C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/library/BitReader.cpp.obj"
+  "C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/library/BitWriter.cpp.obj"
+  "C:/Users/Lenovo/CLionProjects/archiever/library/Compress.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/library/Compress.cpp.obj"
+  "C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/library/Decompress.cpp.obj"
+  "C:/Users/Lenovo/CLionProjects/archiever/library/Heap.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/library/Heap.cpp.obj"
+  "C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/library/Node.cpp.obj"
+  "C:/Users/Lenovo/CLionProjects/archiever/library/Trie.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/library/Trie.cpp.obj"
   "C:/Users/Lenovo/CLionProjects/archiever/main.cpp" "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Lenovo/CLionProjects/archiever/BitReader.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.cpp
+BitReader.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.h
+
+C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.h
 iostream
 -
 fstream
@@ -14,7 +18,11 @@ fstream
 vector
 -
 
-C:/Users/Lenovo/CLionProjects/archiever/BitWriter.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.cpp
+BitWriter.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
+
+C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
 vector
 -
 iostream
@@ -22,13 +30,33 @@ iostream
 fstream
 -
 
-C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h
+C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
 
-C:/Users/Lenovo/CLionProjects/archiever/Decompress.cpp
+C:/Users/Lenovo/CLionProjects/archiever/library/Compress.cpp
+Compress.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Compress.h
+
+C:/Users/Lenovo/CLionProjects/archiever/library/Compress.h
+string
+-
+fstream
+-
+Trie.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
+BitWriter.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
+BitReader.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.h
+algorithm
+-
+CONSTANTS.h
+C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
+
+C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.cpp
 Decompress.h
-C:/Users/Lenovo/CLionProjects/archiever/Decompress.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.h
 
-C:/Users/Lenovo/CLionProjects/archiever/Decompress.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.h
 string
 -
 fstream
@@ -38,17 +66,21 @@ unordered_map
 vector
 -
 BitReader.h
-C:/Users/Lenovo/CLionProjects/archiever/BitReader.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.h
 Trie.h
-C:/Users/Lenovo/CLionProjects/archiever/Trie.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
 iostream
 -
 CONSTANTS.h
-C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h
+C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
 BitWriter.h
-C:/Users/Lenovo/CLionProjects/archiever/BitWriter.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
 
-C:/Users/Lenovo/CLionProjects/archiever/Heap.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Heap.cpp
+Heap.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Heap.h
+
+C:/Users/Lenovo/CLionProjects/archiever/library/Heap.h
 cstddef
 -
 algorithm
@@ -56,19 +88,23 @@ algorithm
 vector
 -
 Trie.h
-C:/Users/Lenovo/CLionProjects/archiever/Trie.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
 iostream
 -
 Node.cpp
-C:/Users/Lenovo/CLionProjects/archiever/Node.cpp
+C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp
 
-C:/Users/Lenovo/CLionProjects/archiever/Node.cpp
+C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp
 cstddef
 -
 cstdint
 -
 
-C:/Users/Lenovo/CLionProjects/archiever/Trie.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Trie.cpp
+Trie.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
+
+C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
 cstddef
 -
 stdint.h
@@ -78,11 +114,33 @@ iostream
 unordered_map
 -
 BitReader.h
-C:/Users/Lenovo/CLionProjects/archiever/BitReader.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.h
 Heap.h
-C:/Users/Lenovo/CLionProjects/archiever/Heap.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Heap.h
 Node.cpp
-C:/Users/Lenovo/CLionProjects/archiever/Node.cpp
+C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp
 CONSTANTS.h
-C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h
+C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
+
+C:/Users/Lenovo/CLionProjects/archiever/main.cpp
+iostream
+-
+fstream
+-
+library/BitReader.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.h
+library/Trie.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
+library/BitWriter.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
+library/Compress.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Compress.h
+library/Decompress.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.h
+algorithm
+-
+filesystem
+-
+cstring
+-
 
