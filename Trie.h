@@ -9,6 +9,7 @@
 #include "BitReader.h"
 #include "Heap.h"
 #include "Node.cpp"
+#include "CONSTANTS.h"
 
 
 

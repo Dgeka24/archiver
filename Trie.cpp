@@ -32,9 +32,9 @@ Trie::Trie(std::ifstream &input, std::string file_name) : fin_(input) {
     for (auto p : freq) {
         queue.insert(new Node(p.second, p.first));
     }
-    queue.insert(new Node(1, 256));
-    queue.insert(new Node(1, 257));
-    queue.insert(new Node(1, 258));
+    queue.insert(new Node(1, FILENAME_END));
+    queue.insert(new Node(1, ONE_MORE_FILE));
+    queue.insert(new Node(1, ARCHIVE_END));
     while(queue.size() >= 2) {
         Node* pt1 = queue.extract();
         Node* pt2 = queue.extract();

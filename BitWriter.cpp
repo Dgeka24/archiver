@@ -31,6 +31,10 @@ void BitWriter::write_from_int(uint16_t bits, size_t amount) {
 }
 
 void BitWriter::write_to_file() {
+    if (buffer_.empty()) {
+        fout_.flush();
+        return;
+    }
     if (buffer_.size() >= 8) {
         uint8_t ch = 0;
         for (size_t idx = 0; idx < 8; idx++) {

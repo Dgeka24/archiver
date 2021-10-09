@@ -43,18 +43,7 @@ uint16_t BitReader::ReadBits(size_t bits) {
 }
 
 bool BitReader::ReadBit() {
-    if (buffer_size_ == 0) {
-        if(!BufferUpdate()) {
-            throw std::out_of_range("Out of Range ReadBits");
-        }
-        if (buffer_size_ == 0) {
-            throw std::out_of_range("Out of Range ReadBits");
-        }
-    }
-    bool res = buffer_ & (1 << 31);
-    buffer_ <<= 1;
-    buffer_size_--;
-    return res;
+    return ReadBits(1);
 }
 
 std::vector<bool> BitReader::ReadBitsVector(size_t bits) {

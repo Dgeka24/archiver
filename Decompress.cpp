@@ -20,7 +20,7 @@ bool Decompress::Decompress_file() {
         cur.push_back(reader_.ReadBit());
         if (codes_.contains(cur)) {
             uint16_t symbol = codes_[cur];
-            if (symbol == FILENAME_END) {
+            if (symbol == ONE_MORE_FILE) {
                 return true;
             } else if (symbol == ARCHIVE_END) {
                 return false;
@@ -54,17 +54,14 @@ std::string Decompress::read_file_name() {
 
 void Decompress::build_codes() {
     uint16_t symbols_count = reader_.ReadBits(9);
-    std::cout << symbols_count << std::endl;
     std::vector<uint16_t> symbols_in_canon_order(symbols_count);
     for (uint16_t& ch : symbols_in_canon_order) {
         ch = reader_.ReadBits(9);
-        std::cout << ch << std::endl;
     }
     std::vector<size_t> amount_of_exact_length;
     amount_of_exact_length.push_back(0);
     while (symbols_count) {
         uint16_t amount = reader_.ReadBits(9);
-        std::cout << amount << std::endl;
         symbols_count -= amount;
         amount_of_exact_length.push_back(amount);
     }
@@ -80,12 +77,5 @@ void Decompress::build_codes() {
             idx_of_cur_symbol++;
             amount_of_exact_length[length]--;
         }
-    }
-
-    for (auto p : codes_) {
-        for (auto x : p.first) {
-            std::cout << x << " ";
-        }
-        std::cout << " : " << p.second << "\n";
     }
 }

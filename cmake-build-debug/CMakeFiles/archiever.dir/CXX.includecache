@@ -24,21 +24,9 @@ fstream
 
 C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h
 
-C:/Users/Lenovo/CLionProjects/archiever/Compress.h
-string
--
-fstream
--
-Trie.h
-C:/Users/Lenovo/CLionProjects/archiever/Trie.h
-BitWriter.h
-C:/Users/Lenovo/CLionProjects/archiever/BitWriter.h
-BitReader.h
-C:/Users/Lenovo/CLionProjects/archiever/BitReader.h
-algorithm
--
-CONSTANTS.h
-C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h
+C:/Users/Lenovo/CLionProjects/archiever/Decompress.cpp
+Decompress.h
+C:/Users/Lenovo/CLionProjects/archiever/Decompress.h
 
 C:/Users/Lenovo/CLionProjects/archiever/Decompress.h
 string
@@ -95,20 +83,6 @@ Heap.h
 C:/Users/Lenovo/CLionProjects/archiever/Heap.h
 Node.cpp
 C:/Users/Lenovo/CLionProjects/archiever/Node.cpp
-
-C:/Users/Lenovo/CLionProjects/archiever/main.cpp
-iostream
--
-fstream
--
-BitReader.h
-C:/Users/Lenovo/CLionProjects/archiever/BitReader.h
-Trie.h
-C:/Users/Lenovo/CLionProjects/archiever/Trie.h
-BitWriter.h
-C:/Users/Lenovo/CLionProjects/archiever/BitWriter.h
-Compress.h
-C:/Users/Lenovo/CLionProjects/archiever/Compress.h
-Decompress.h
-C:/Users/Lenovo/CLionProjects/archiever/Decompress.h
+CONSTANTS.h
+C:/Users/Lenovo/CLionProjects/archiever/CONSTANTS.h
 

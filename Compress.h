@@ -17,11 +17,11 @@
 
 class Compress {
 public:
-    Compress(std::string file_name, std::ifstream &input, std::ofstream &output, bool is_end);
+    Compress(std::string file_name, std::ifstream &input, BitWriter& writer, bool is_end);
 private:
     std::string file_name_;
     std::ifstream& fin_;
-    std::ofstream& fout_;
+    BitWriter& writer_;
 };
 
 

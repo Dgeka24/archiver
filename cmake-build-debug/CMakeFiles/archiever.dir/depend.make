@@ -27,6 +27,7 @@ CMakeFiles/archiever.dir/Decompress.cpp.obj: \
  ../Trie.h
 CMakeFiles/archiever.dir/Heap.cpp.obj: \
  ../BitReader.h \
+ ../CONSTANTS.h \
  ../Heap.cpp \
  ../Heap.h \
  ../Node.cpp \
@@ -35,6 +36,7 @@ CMakeFiles/archiever.dir/Node.cpp.obj: \
  ../Node.cpp
 CMakeFiles/archiever.dir/Trie.cpp.obj: \
  ../BitReader.h \
+ ../CONSTANTS.h \
  ../Heap.h \
  ../Node.cpp \
  ../Trie.cpp \
