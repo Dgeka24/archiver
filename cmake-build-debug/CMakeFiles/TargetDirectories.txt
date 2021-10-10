@@ -1,3 +1,6 @@
 C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/archiever.dir
 C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/CMakeFiles/tests.dir
+C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir

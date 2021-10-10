@@ -90,6 +90,16 @@ C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
 BitWriter.h
 C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
 
+C:/Users/Lenovo/CLionProjects/archiever/library/Heap.cpp
+Heap.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Heap.h
+cstddef
+-
+algorithm
+-
+memory
+-
+
 C:/Users/Lenovo/CLionProjects/archiever/library/Heap.h
 cstddef
 -
@@ -108,6 +118,18 @@ memory
 
 C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp
 cstdint
+-
+memory
+-
+
+C:/Users/Lenovo/CLionProjects/archiever/library/Trie.cpp
+Trie.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
+stdint.h
+-
+iostream
+-
+unordered_map
 -
 memory
 -

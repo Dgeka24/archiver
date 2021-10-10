@@ -5,7 +5,7 @@
 		<Option title="archiever"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug"/>
@@ -81,6 +81,50 @@
 					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tests">
+				<Option output="C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.cpp">
 			<Option target="archiever"/>
@@ -127,8 +171,14 @@
 		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/main.cpp">
 			<Option target="archiever"/>
 		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/tests/tests.cpp">
+			<Option target="tests"/>
+		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/archiever/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

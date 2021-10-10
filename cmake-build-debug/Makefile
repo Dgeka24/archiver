@@ -128,6 +128,19 @@ archiever/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\archiever.dir\build.make CMakeFiles/archiever.dir/build
 .PHONY : archiever/fast
 
+#=============================================================================
+# Target rules for targets named tests
+
+# Build rule for target.
+tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests
+.PHONY : tests
+
+# fast build rule for target.
+tests/fast:
+	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\tests.dir\build.make tests/CMakeFiles/tests.dir/build
+.PHONY : tests/fast
+
 library/BitReader.obj: library/BitReader.cpp.obj
 .PHONY : library/BitReader.obj
 
@@ -329,6 +342,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... archiever
+	@echo ... tests
 	@echo ... library/BitReader.obj
 	@echo ... library/BitReader.i
 	@echo ... library/BitReader.s

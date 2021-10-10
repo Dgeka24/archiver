@@ -1,4 +1,8 @@
 "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\Lenovo\CLionProjects\archiever
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug
+CMake Error at CMakeLists.txt:10 (target_link_libraries):
+  Cannot specify link libraries for target "archiver" which is not built by
+  this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Lenovo/CLionProjects/archiever/cmake-build-debug/CMakeFiles/CMakeOutput.log".
