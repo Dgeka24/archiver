@@ -39,14 +39,12 @@ bool Decompress::Decompress_file() {
             } else if (symbol == ARCHIVE_END) {
                 return false;
             } else {
-                writer.write_from_int(symbol, 8);
+                writer.WriteFromInt(symbol, 8);
             }
             cur.clear();
         }
     }
 }
-
-
 
 std::string Decompress::read_file_name() {
     std::vector<bool> cur;
@@ -65,7 +63,6 @@ std::string Decompress::read_file_name() {
     }
 }
 
-
 void Decompress::build_codes() {
     uint16_t symbols_count = reader_.ReadBits(9);
     std::vector<uint16_t> symbols_in_canon_order(symbols_count);
@@ -80,12 +77,12 @@ void Decompress::build_codes() {
     }
     std::vector<bool> cur;
     size_t idx_of_cur_symbol = 0;
-    for (size_t length = 1; length < amount_of_exact_length.size(); length++) {
+    for (size_t length = 1; length < amount_of_exact_length.size(); ++length) {
         while (amount_of_exact_length[length] > 0) {
-            Trie::increment_vector(cur, cur.size() - 1, length);
+            Trie::IncrementVector(cur, cur.size() - 1, length);
             codes_[cur] = symbols_in_canon_order[idx_of_cur_symbol];
-            idx_of_cur_symbol++;
-            amount_of_exact_length[length]--;
+            ++idx_of_cur_symbol;
+            --amount_of_exact_length[length];
         }
     }
 }

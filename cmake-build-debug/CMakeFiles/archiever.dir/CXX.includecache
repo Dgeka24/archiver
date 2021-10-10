@@ -14,6 +14,14 @@ fstream
 vector
 -
 
+C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.cpp
+BitWriter.h
+C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
+vector
+-
+iostream
+-
+
 C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
 vector
 -
@@ -23,6 +31,14 @@ fstream
 -
 
 C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
+
+C:/Users/Lenovo/CLionProjects/archiever/library/Compress.cpp
+Compress.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Compress.h
+string
+-
+algorithm
+-
 
 C:/Users/Lenovo/CLionProjects/archiever/library/Compress.h
 string
@@ -39,6 +55,20 @@ algorithm
 -
 CONSTANTS.h
 C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
+
+C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.cpp
+Decompress.h
+C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.h
+string
+-
+fstream
+-
+unordered_map
+-
+vector
+-
+iostream
+-
 
 C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.h
 string
@@ -73,9 +103,13 @@ iostream
 -
 Node.cpp
 C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp
+memory
+-
 
 C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp
 cstdint
+-
+memory
 -
 
 C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
@@ -95,6 +129,8 @@ Node.cpp
 C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp
 CONSTANTS.h
 C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
+memory
+-
 
 C:/Users/Lenovo/CLionProjects/archiever/main.cpp
 iostream

@@ -17,7 +17,7 @@ void CompressFiles(int argc, char* argv[]) {
     }
     BitWriter writer(output);
     size_t last_idx = 2;
-    for (size_t idx = 3; idx < argc; idx++) {
+    for (size_t idx = 3; idx < argc; ++idx) {
         std::string file_name = argv[idx];
         if (std::filesystem::exists(file_name)) {
             last_idx = std::max(last_idx, idx);
@@ -26,7 +26,7 @@ void CompressFiles(int argc, char* argv[]) {
     if (last_idx == 2) {
         throw std::runtime_error("No files for archiving found");
     }
-    for (size_t idx = 3; idx < last_idx; idx++) {
+    for (size_t idx = 3; idx < last_idx; ++idx) {
         std::string file_name = argv[idx];
         std::ifstream input(file_name, std::fstream::binary);
         if (input.is_open()) {
@@ -56,7 +56,6 @@ void PrintHelp() {
 }
 
 int main(int argc, char* argv[]) {
-
     if (argc == 1){
         std::cout << "No arguments found!";
         return 1;

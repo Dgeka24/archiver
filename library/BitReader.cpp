@@ -40,7 +40,7 @@ uint16_t BitReader::ReadBits(size_t bits) {
     uint16_t res = (buffer_ >> (32 - bits)) << (16 - bits);
     buffer_size_ -= bits;
     buffer_ <<= bits;
-    return (res>>(16-bits));
+    return (res >> (16 - bits));
 }
 
 bool BitReader::ReadBit() {
@@ -53,8 +53,8 @@ std::vector<bool> BitReader::ReadBitsVector(size_t bits) {
     }
     uint16_t x = ReadBits(bits);
     std::vector<bool> res;
-    for (size_t idx = 0; idx < bits; idx++) {
-        res.push_back(x&(1<<(bits-idx-1)));
+    for (size_t idx = 0; idx < bits; ++idx) {
+        res.push_back(x & (1 << (bits - idx - 1)));
     }
     return res;
 }

@@ -5,17 +5,18 @@
 #include "Heap.h"
 #include <cstddef>
 #include <algorithm>
+#include <memory>
 
 Heap::Heap() {
     heap.clear();
 }
 
-void Heap::insert(Node* val) {
+void Heap::Insert(std::shared_ptr<Node> val) {
     heap.push_back(val);
-    sift_up(heap.size() - 1);
+    SiftUp(heap.size() - 1);
 }
 
-void Heap::sift_down(size_t v) {
+void Heap::SiftDown(size_t v) {
     while (2 * v + 1 < heap.size()) {
         size_t left = 2 * v + 1;
         size_t right = 2 * v + 2;
@@ -31,21 +32,21 @@ void Heap::sift_down(size_t v) {
     }
 }
 
-void Heap::sift_up(size_t v) {
+void Heap::SiftUp(size_t v) {
     while (v > 0 && (*heap[v]) < (*heap[(v - 1) / 2])) {
         std::swap(heap[v], heap[(v - 1) / 2]);
         v = (v - 1) / 2;
     }
 }
 
-Node* Heap::extract() {
+std::shared_ptr<Node> Heap::Extract() {
     if (heap.empty()) {
         return nullptr;
     }
-    Node* ret = heap[0];
+    std::shared_ptr<Node> ret = heap[0];
     heap[0] = heap.back();
     heap.pop_back();
-    sift_down(0);
+    SiftDown(0);
     return ret;
 }
 

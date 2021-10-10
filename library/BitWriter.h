@@ -10,9 +10,9 @@ class BitWriter {
 public:
     ~BitWriter();
     BitWriter(std::ofstream& output);
-    void write_bits(std::vector<bool> &bits);
-    void write_from_int(uint16_t bits, size_t amount);
-    void write_to_file();
+    void WriteBits(std::vector<bool> &bits);
+    void WriteFromInt(uint16_t bits, size_t amount);
+    void WriteToFile();
 
 private:
     std::ofstream& fout_;

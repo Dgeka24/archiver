@@ -8,20 +8,21 @@
 #include "Trie.h"
 #include <iostream>
 #include "Node.cpp"
+#include <memory>
 
 
 class Heap {
 public:
     Heap();
-    void insert(Node* val);
-    void sift_down(size_t v);
-    void sift_up(size_t v);
-    Node* extract();
+    void Insert(std::shared_ptr<Node> val);
+    void SiftDown(size_t v);
+    void SiftUp(size_t v);
+    std::shared_ptr<Node> Extract();
     bool empty() const;
     size_t size() const;
 
 private:
-    std::vector<Node*> heap;
+    std::vector<std::shared_ptr<Node>> heap;
 };
 
 
