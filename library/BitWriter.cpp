@@ -3,6 +3,8 @@
 //
 
 #include "BitWriter.h"
+#include <vector>
+#include <iostream>
 
 BitWriter::BitWriter(std::ofstream &output) : fout_(output) {
     buffer_ = {};

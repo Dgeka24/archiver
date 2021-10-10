@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.cpp
-BitReader.h
-C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.h
-
 C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.h
 iostream
 -
@@ -17,10 +13,6 @@ fstream
 -
 vector
 -
-
-C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.cpp
-BitWriter.h
-C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
 
 C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
 vector
@@ -31,10 +23,6 @@ fstream
 -
 
 C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
-
-C:/Users/Lenovo/CLionProjects/archiever/library/Compress.cpp
-Compress.h
-C:/Users/Lenovo/CLionProjects/archiever/library/Compress.h
 
 C:/Users/Lenovo/CLionProjects/archiever/library/Compress.h
 string
@@ -51,10 +39,6 @@ algorithm
 -
 CONSTANTS.h
 C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
-
-C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.cpp
-Decompress.h
-C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.h
 
 C:/Users/Lenovo/CLionProjects/archiever/library/Decompress.h
 string
@@ -76,10 +60,6 @@ C:/Users/Lenovo/CLionProjects/archiever/library/CONSTANTS.h
 BitWriter.h
 C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
 
-C:/Users/Lenovo/CLionProjects/archiever/library/Heap.cpp
-Heap.h
-C:/Users/Lenovo/CLionProjects/archiever/library/Heap.h
-
 C:/Users/Lenovo/CLionProjects/archiever/library/Heap.h
 cstddef
 -
@@ -95,14 +75,8 @@ Node.cpp
 C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp
 
 C:/Users/Lenovo/CLionProjects/archiever/library/Node.cpp
-cstddef
--
 cstdint
 -
-
-C:/Users/Lenovo/CLionProjects/archiever/library/Trie.cpp
-Trie.h
-C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
 
 C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
 cstddef
@@ -129,8 +103,6 @@ fstream
 -
 library/BitReader.h
 C:/Users/Lenovo/CLionProjects/archiever/library/BitReader.h
-library/Trie.h
-C:/Users/Lenovo/CLionProjects/archiever/library/Trie.h
 library/BitWriter.h
 C:/Users/Lenovo/CLionProjects/archiever/library/BitWriter.h
 library/Compress.h

@@ -6,9 +6,6 @@
 #include <iostream>
 #include <fstream>
 
-#ifndef ARCHIEVER_BITWRITER_H
-#define ARCHIEVER_BITWRITER_H
-
 class BitWriter {
 public:
     ~BitWriter();
@@ -21,6 +18,3 @@ private:
     std::ofstream& fout_;
     std::vector<bool> buffer_;
 };
-
-
-#endif //ARCHIEVER_BITWRITER_H

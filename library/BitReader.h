@@ -6,10 +6,6 @@
 #include <fstream>
 #include <vector>
 
-#ifndef ARCHIEVER_BITREADER_H
-#define ARCHIEVER_BITREADER_H
-
-
 class BitReader {
 public:
     BitReader(std::ifstream& input);
@@ -23,6 +19,3 @@ private:
     std::ifstream& fin_;
     size_t counter = 0;
 };
-
-
-#endif //ARCHIEVER_BITREADER_H

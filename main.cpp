@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include "library/BitReader.h"
-#include "library/Trie.h"
 #include "library/BitWriter.h"
 #include "library/Compress.h"
 #include "library/Decompress.h"
@@ -32,11 +31,13 @@ void CompressFiles(int argc, char* argv[]) {
         std::ifstream input(file_name, std::fstream::binary);
         if (input.is_open()) {
             Compress cmp = Compress(file_name, input, writer, false);
+            cmp.CompressFile();
         }
     }
     std::string file_name = argv[last_idx];
     std::ifstream input(file_name, std::fstream::binary);
     Compress cmp = Compress(file_name, input, writer, true);
+    cmp.CompressFile();
 }
 
 void DecompressFiles(char* argv[]) {
@@ -45,6 +46,7 @@ void DecompressFiles(char* argv[]) {
         throw std::runtime_error("No archive file found");
     }
     Decompress dcmp(archive_name);
+    dcmp.DecompressArchive();
 }
 
 void PrintHelp() {
@@ -78,5 +80,5 @@ int main(int argc, char* argv[]) {
             return 1;
         }
     }
-
+    return 0;
 }

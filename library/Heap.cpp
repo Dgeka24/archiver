@@ -3,6 +3,8 @@
 //
 
 #include "Heap.h"
+#include <cstddef>
+#include <algorithm>
 
 Heap::Heap() {
     heap.clear();
@@ -38,7 +40,6 @@ void Heap::sift_up(size_t v) {
 
 Node* Heap::extract() {
     if (heap.empty()) {
-        //std::cerr << "empty heap" << std::endl;
         return nullptr;
     }
     Node* ret = heap[0];
@@ -48,11 +49,11 @@ Node* Heap::extract() {
     return ret;
 }
 
-bool Heap::empty() {
+bool Heap::empty() const {
     return heap.empty();
 }
 
-size_t Heap::size() {
+size_t Heap::size() const {
     return heap.size();
 }
 

@@ -3,6 +3,8 @@
 //
 
 #include "BitReader.h"
+#include <iostream>
+#include <vector>
 
 BitReader::BitReader(std::ifstream &input) : fin_(input) {
     buffer_size_ = 0;
@@ -33,7 +35,6 @@ uint16_t BitReader::ReadBits(size_t bits) {
     }
     while (bits > buffer_size_ && BufferUpdate());
     if (bits > buffer_size_) {
-        //std::cerr << "Out of Range ReadBits";
         throw std::out_of_range("Out of Range ReadBits");
     }
     uint16_t res = (buffer_ >> (32 - bits)) << (16 - bits);

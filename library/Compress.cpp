@@ -3,9 +3,20 @@
 //
 
 #include "Compress.h"
+#include <string>
+#include <algorithm>
 
 Compress::Compress(std::string file_name, std::ifstream &input, BitWriter& writer, bool is_end) : fin_(input), writer_(writer) {
     file_name_ = file_name;
+    is_end_ = is_end;
+    is_compressed_ = false;
+}
+
+void Compress::CompressFile() {
+    if (is_compressed_) {
+        std::cerr << "Already Compressed";
+        return;
+    }
     // building codes
     Trie trie = Trie(fin_, file_name_);
     fin_.clear();
@@ -34,7 +45,7 @@ Compress::Compress(std::string file_name, std::ifstream &input, BitWriter& write
         }
     }
     // writing file name
-    for (auto ch : file_name) {
+    for (auto ch : file_name_) {
         uint16_t uch = static_cast<uint16_t>(static_cast<uint8_t>(ch));
         writer_.write_bits(canon[uch]);
     }
@@ -49,10 +60,10 @@ Compress::Compress(std::string file_name, std::ifstream &input, BitWriter& write
 
     }
 
-    if (is_end) {
+    if (is_end_) {
         writer_.write_bits(canon[ARCHIVE_END]);
     } else {
         writer_.write_bits(canon[ONE_MORE_FILE]);
     }
-
+    is_compressed_ = true;
 }

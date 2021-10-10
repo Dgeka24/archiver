@@ -17,8 +17,8 @@ public:
     void sift_down(size_t v);
     void sift_up(size_t v);
     Node* extract();
-    bool empty();
-    size_t size();
+    bool empty() const;
+    size_t size() const;
 
 private:
     std::vector<Node*> heap;

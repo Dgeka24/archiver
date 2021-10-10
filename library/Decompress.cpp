@@ -3,10 +3,24 @@
 //
 
 #include "Decompress.h"
+#include <string>
+#include <fstream>
+#include <unordered_map>
+#include <vector>
+#include <iostream>
 
 Decompress::Decompress(std::string archive_name) : fin_(std::ifstream(archive_name, std::fstream::binary)), reader_(fin_) {
-    archive_name_ = archive_name;
-    while (Decompress_file());
+    archive_name_ = std::move(archive_name);
+    is_decompressed_ = false;
+}
+
+void Decompress::DecompressArchive() {
+    if (is_decompressed_) {
+        std::cerr << "Already decompressed";
+        return;
+    }
+    while (Decompress_file()) {}
+    is_decompressed_ = true;
 }
 
 bool Decompress::Decompress_file() {
@@ -58,8 +72,7 @@ void Decompress::build_codes() {
     for (uint16_t& ch : symbols_in_canon_order) {
         ch = reader_.ReadBits(9);
     }
-    std::vector<size_t> amount_of_exact_length;
-    amount_of_exact_length.push_back(0);
+    std::vector<size_t> amount_of_exact_length = {0};
     while (symbols_count) {
         uint16_t amount = reader_.ReadBits(9);
         symbols_count -= amount;
@@ -69,10 +82,7 @@ void Decompress::build_codes() {
     size_t idx_of_cur_symbol = 0;
     for (size_t length = 1; length < amount_of_exact_length.size(); length++) {
         while (amount_of_exact_length[length] > 0) {
-            Trie::increment_vector(cur, cur.size() - 1);
-            while (cur.size() < length) {
-                cur.push_back(false);
-            }
+            Trie::increment_vector(cur, cur.size() - 1, length);
             codes_[cur] = symbols_in_canon_order[idx_of_cur_symbol];
             idx_of_cur_symbol++;
             amount_of_exact_length[length]--;

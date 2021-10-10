@@ -11,18 +11,14 @@
 #include <algorithm>
 #include "CONSTANTS.h"
 
-#ifndef ARCHIEVER_COMPRESS_H
-#define ARCHIEVER_COMPRESS_H
-
-
 class Compress {
 public:
     Compress(std::string file_name, std::ifstream &input, BitWriter& writer, bool is_end);
+    void CompressFile();
 private:
     std::string file_name_;
     std::ifstream& fin_;
     BitWriter& writer_;
+    bool is_end_;
+    bool is_compressed_ = false;
 };
-
-
-#endif //ARCHIEVER_COMPRESS_H
